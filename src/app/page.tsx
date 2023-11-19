@@ -6,5 +6,10 @@ export default function Page() {
   useEffect(() => {
     setCounter(1);
   }, []);
-  return <div>{counter}</div>;
+  return (
+    <div>
+      <div>{counter}</div>
+      <div>{counter}</div>
+    </div>
+  );
 }
